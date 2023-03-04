@@ -13,7 +13,7 @@ const Profile = ({ fullName, bio, profession, children, handleName }) => {
 };
 
 Profile.defaultProps = {
-  fullName: "Mohamed Firas Ben Othmen",
+  fullName: "No name available",
   bio: "No bio available",
   profession: "No profession available",
   handleName: (name) => alert(`Hello, my name is ${name}`),
